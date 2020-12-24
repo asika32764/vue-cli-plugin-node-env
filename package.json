@@ -5,5 +5,8 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/asika32764/vue-cli-plugin-node-env.git"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0"
     }
 }
