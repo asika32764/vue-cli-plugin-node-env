@@ -46,4 +46,4 @@ exec(`git checkout master`);
 
 console.log('>> Publish to npm');
 
-exec(`npm publish`);
+exec(`npm publish --access=public`);
