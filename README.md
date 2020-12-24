@@ -6,11 +6,11 @@ and help us show some important env values before compiling.
 ## Install
 
 ```
-npm i -s vue-cli-plugin-node-env
+npm i -s @asika32764/vue-cli-plugin-node-env
 
 # OR
 
-yarn add vue-cli-plugin-node-env
+yarn add @asika32764/vue-cli-plugin-node-env
 ```
 
 ## Usage
