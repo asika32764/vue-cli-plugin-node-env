@@ -26,6 +26,6 @@ module.exports = (api, options) => {
 };
 
 module.exports.defaultModes = {
-  build: process.env.NODE_ENV || 'production',
-  serve: process.env.NODE_ENV || 'development',
+  build: process.env.VUE_CLI_MODE || process.env.NODE_ENV || 'production',
+  serve: process.env.VUE_CLI_MODE || process.env.NODE_ENV || 'development',
 };
