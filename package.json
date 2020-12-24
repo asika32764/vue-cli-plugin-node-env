@@ -1,0 +1,9 @@
+{
+    "name": "vue-cli-plugin-node-env",
+    "version": "1.0.0",
+    "description": "vue-cli plugin to replace --mode value with NODE_ENV and can show some important env values when compiling.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asika32764/vue-cli-plugin-node-env.git"
+    }
+}
