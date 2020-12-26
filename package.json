@@ -7,9 +7,9 @@
     "url": "git+https://github.com/asika32764/vue-cli-plugin-node-env.git"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
   },
   "devDependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "chalk": "^2.0.0"
   }
 }

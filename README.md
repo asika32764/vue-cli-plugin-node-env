@@ -52,9 +52,25 @@ Then when run `npm run serve` or `build`, this env will show up:
 ```shell
 > vue-cli-service build
 
-ENVIRONMENT VALUES
+ENVIRONMENT VARIABLES
   VUE_APP_API_ENDPOINT: https://your-site.com/api/v1/
   VUE_APP_DEBUG: 1
 
   Building for development...
+```
+
+## Use Different Mode for .env File and Building
+
+If you want to use different env between `.env.{mode}` and build mode, you can use `BUILD_MODE` env.
+
+```shell
+NODE_ENV=staging BUILD_MODE=production yarn build
+```
+
+## Use on Ionic
+
+This plugin is also useful for some Vue CLI wrapper like Ionic.
+
+```shell
+NODE_ENV=staging BUILD_MODE=production ionic capacitor run ios
 ```
